@@ -1,4 +1,242 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
+    
+}
+body{
+    background: #c8cfdc;
+}
+#header{
+    background: #ffffff;
+    width: 93%;
+    margin-left: 3.5%;
+    margin-top: 3.5%;
+    height: 90px;
+}
+#header img{
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#list{
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 12px;
+}
+#list li{
+    display: inline-block;
+    margin-left: 40px;
+}
+#list li a{
+    text-decoration: none;
+    color: black;
+}
+#list li a:hover{
+    color: #0089cf;
+    border-bottom: 4px solid #0089cf;
+    padding-bottom: 30px;
+    -webkit-transition: .5s;
+}
+#list1{
+    float: right;
+    margin-top: 40px;
+    margin-right: 25px;
+    font-size: 12px;
+}
+#list1 li{
+    display: inline-block;
+    margin-right: 10px;
+}
+#list1 li a{
+    text-decoration: none;
+    color: black;
+}
+#list1 img{
+    margin-top: 0;
+}
+#list1 span img{
+    margin-right: 3px;
+}
+
+
+
+#top{
+    background: #ffffff;
+    width: 93%;
+    margin-left: 3.5%;
+    height: 610px;
+}
+#shoes{
+    display: inline-block;
+}
+#shoes img{
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+#product{
+    display: inline-block;
+    float: right;
+    margin-right: 170px;
+    margin-top: 60px;
+}
+#product h3{
+    margin-top: 30px;
+    font-size: 17px;
+}
+#product h1{
+    font-size: 23px;
+}
+#product p{
+    margin-top: 20px;
+    color: #0089cf;
+    font-size: 10px;
+}
+#product span{
+    color: #8f8f8f;
+}
+#product h6{
+    color: #8f8f8f;
+}
+#shoes1 img{
+    width: 80px;
+    margin-top: 15px;
+    border: 1px solid #e4e4e4;
+}
+#shoes1 p{
+    margin-top: 20px;
+    color: #b8b8b8;
+    font-size: 9px;
+}
+#img{
+    margin-left: 10px;
+}
+
+
+#feat1{
+    background-image: url(../IMG/bg-shoes.png);
+    background-size: contain;
+    width: 93%;
+    margin-left: 3.5%;
+    height: 613px;
+}
+#feat1 h3{
+    font-size: 17px;
+    padding-left: 50px;
+    padding-top: 240px;
+    color: #ffffff;
+}
+#feat1 p{
+    font-size: 11px;
+    padding-left: 50px;
+    margin-top: 20px;
+    color: #f1f1f0;
+}
+
+
+
+#feat2{
+    background-image: url(../IMG/bg-Nike.png);
+    background-size: contain;
+    width: 93%;
+    margin-left: 3.5%;
+    height: 614px;
+}
+#feat2 ul{
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+#feat2 ul li{
+    list-style: none;
+}
+#feat2 h3{
+    font-size: 17px;
+}
+#feat2 h4{
+    font-size: 13px;
+}
+#feat2 h5{
+    color: #666666;
+    font-size: 10px;
+}
+#feat2 p{
+    color: #a8a8a8;
+    font-size: 12px;
+}
+.part2{
+    margin-top: 10px;
+}
+.part3{
+    margin-top: 30px;
+}
+.part4{
+    margin-top: 40px;
+}
+.part5{
+    margin-top: 30px;
+}
+.part6{
+    margin-top: 10px;
+}
+.part7{
+    margin-top: 20px;
+}
+.part8{
+    margin-top: 10px;
+}
+.part9{
+    margin-top: 20px;
+}
+.part10{
+    margin-top: 10px;
+}
+.part11{
+    margin-top: 20px;
+}
+.part12{
+    margin-top: 10px;
+}
+#box{
+    width: 265px;
+    height: 420px;
+    background: #ffffff;
+    border: 4px solid #e4e4e4;
+    float: right;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 110px;
+}
+#box h2{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#box p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#box h6{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #0089cf;
+}
+#box img{
+    width: 230px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#box h5{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+#social{
+    background: #ffffff;
+    width: 93%;
+    margin-left: 3.5%;
+    height: 660px;
 }
