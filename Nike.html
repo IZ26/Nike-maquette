@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title> Nike-maquette </title>
     <link rel="stylesheet" type="text/css" href="CSS/Nike.css">
+    <link rel="stylesheet" type="text/css" href="CSS/swiper.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
     <div id="header">
@@ -17,7 +19,7 @@
         </ul>
         <ul id="list1">
             <li><a href="#"><span><img src="IMG/Icones/icon2.png"/></span>SEARCH</a></li>
-            <li><a href="#"><span><img src="IMG/Icones/icon1.png"/></span>CART()</a></li>
+            <li><a href="#"><span><img src="IMG/Icones/icon1.png"/></span>CART( )</a></li>
             <li><a href="#"><span><img src="IMG/Icones/icon.png"/></span>SIGN IN</a></li>
         </ul>
     </div>
@@ -36,6 +38,18 @@
                 <img src="IMG/Nike-shoes1.png" id="img"/>
                 <p> Size Charts </p>
             </div>
+            <div class="size size1">
+                    <select>
+                        <option>SIZE</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                    </select>
+                </div>
+            <h4 class="btn btn1"> ADD TO CART </h4>
         </div>
     </div>
     <div id="feat1">
@@ -63,12 +77,55 @@
             <h6> BLACK/PINK POW/TOUR YELLOW/WHITE </h6>
             <img src="IMG/Shoes-choose.png"/>
             <h5> EN STOCK </h5>
-            <h5> $ 160.00 </h5>
+            <h5 id="price"> $ 160.00 </h5>
+            <div class="size size2">
+                <select>
+                    <option>SIZE</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                </select>
+            </div>
+            <h4 class="btn btn2"> ADD TO CART </h4>
         </div>
     </div>
     <div id="social">
-        
+        <h3> SOCIAL </h3>
+        <h1> #NIKEAIRMAX </h1>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="IMG/slide1.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="IMG/slide2.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="IMG/slide3.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="IMG/slide4.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="IMG/slide1.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="IMG/slide2.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="IMG/slide3.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="IMG/slide4.png"/>
+                </div>
+            </div>
+        <div class="swiper-pagination"></div>
+        </div>
     </div>
     <script src="JS/Nike.js"></script>
+    <script src="JS/swiper.min.js"></script>
 </body>
 </html>
