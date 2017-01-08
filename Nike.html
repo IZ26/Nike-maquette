@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title> Nike-maquette </title>
-    <link rel="stylesheet" type="text/css" href="CSS/Nike.css">
     <link rel="stylesheet" type="text/css" href="CSS/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Nike.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
@@ -18,23 +18,23 @@
             <li><a href="#">EXCLUSIVE</a></li>
         </ul>
         <ul id="list1">
-            <li><a href="#"><span><img src="IMG/Icones/icon2.png"/></span>SEARCH</a></li>
-            <li><a href="#"><span><img src="IMG/Icones/icon1.png"/></span>CART( )</a></li>
-            <li><a href="#"><span><img src="IMG/Icones/icon.png"/></span>SIGN IN</a></li>
+            <li><img src="IMG/Icones/icon2.png"/><a href="#" id="search" >SEARCH</a></li>
+            <li><img src="IMG/Icones/icon1.png"/><a href="#">CART</a></li>
+            <li><img src="IMG/Icones/icon.png"/><a href="#">SIGN IN</a></li>
         </ul>
     </div>
     <div id="top">
         <div id="shoes">
-            <img src="IMG/Shoes-choose.png"/>
+            <img id="big-shoes" src="IMG/Shoes-choose.png"/>
         </div>
         <div id="product">
-            <img src="IMG/Icones/heart.png"/>
+            <img id="heart" class="social-network" src="IMG/Icones/heart.png"/>
             <h3> NIKE </h3>
             <h1> AIR MAX TAVAS SD </h1>
             <h6> $ 160.00 </h6>
             <p><span> COLORS -</span> BLACK/PINK POW/TOUR YELLOW/WHITE</p>
             <div id="shoes1">
-                <img src="IMG/Nike-shoes.png"/>
+                <img src="IMG/Nike-shoes.png" id="img1"/>
                 <img src="IMG/Nike-shoes1.png" id="img"/>
                 <p> Size Charts </p>
             </div>
@@ -75,7 +75,7 @@
             <h2> NIKE </h2> 
             <p> Air max Tavas SD </p>
             <h6> BLACK/PINK POW/TOUR YELLOW/WHITE </h6>
-            <img src="IMG/Shoes-choose.png"/>
+            <img src="IMG/Shoes-choose.png" id="shoes-change"/>
             <h5> EN STOCK </h5>
             <h5 id="price"> $ 160.00 </h5>
             <div class="size size2">
@@ -125,7 +125,7 @@
         <div class="swiper-pagination"></div>
         </div>
     </div>
-    <script src="JS/Nike.js"></script>
     <script src="JS/swiper.min.js"></script>
+    <script src="JS/Nike.js"></script>
 </body>
 </html>
