@@ -1,6 +1,6 @@
 /* Function swiper */
 var swiper = new Swiper('.swiper-container', {
-        pagination: 'none',
+	pagination: 'none',
         slidesPerView: 4,
         paginationClickable: true,
         spaceBetween: 30,
@@ -52,35 +52,28 @@ $(document).ready(function(){
 
 /* Box position */
 jQuery(function($) {
-  function fixDiv() {
-      
-    var $cache = $('#box');
-      
-    if ($(window).scrollTop() < 560){
-        
-        $cache.fadeOut().css({
-        'position': 'absolute',    
-        });
-
-    }
+ 	function fixDiv() {
+    		var $cache = $('#box');
+    			if ($(window).scrollTop() < 560){
+        			$cache.fadeOut().css({
+        			'position': 'absolute',    
+        			});
+    			}
     
-    else if ($(window).scrollTop() > 560 && $(window).scrollTop() < 1359){
-        $cache.fadeIn().css({
-        'position': 'fixed',
-        'right': '93px', 
-        });
-
-    }
-    else{
-        
-        $cache.css({
-        'position': 'absolute',
-        'right': '48px',
-        });
-  }}
-    
-  $(window).scroll(fixDiv);
-  fixDiv();
+    			else if ($(window).scrollTop() > 560 && $(window).scrollTop() < 1359){
+        			$cache.fadeIn().css({
+        			'position': 'fixed',
+        			'right': '93px', 
+        			});
+    			}
+    			else{
+        			$cache.css({
+        			'position': 'absolute',
+        			'right': '48px',
+        			});
+  	}}
+  	$(window).scroll(fixDiv);
+  	fixDiv();
 });
 
 
