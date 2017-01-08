@@ -88,7 +88,7 @@ jQuery(function($) {
 var test = (0) ;
 
 $(document).ready(function(){
-		$("#add_to_cart").click(function(){
+		$(".btn").click(function(){
             test ++; 
             document.getElementById('cart').innerHTML = test;
 		});
