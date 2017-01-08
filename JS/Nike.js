@@ -71,7 +71,8 @@ jQuery(function($) {
         			'position': 'absolute',
         			'right': '48px',
         			});
-  	}}
+  			}
+	}
   	$(window).scroll(fixDiv);
   	fixDiv();
 });
