@@ -1,3 +1,4 @@
+/* Function swiper */
 var swiper = new Swiper('.swiper-container', {
         pagination: 'none',
         slidesPerView: 4,
@@ -6,6 +7,8 @@ var swiper = new Swiper('.swiper-container', {
         loop: true,
 });
 
+
+/* Change color of the heart */
 $('#heart').click(function(){
     if($(this).hasClass('social-network')){
         $(this).removeClass('social-network');
@@ -17,6 +20,7 @@ $('#heart').click(function(){
 });
 
 
+/* Choose color shoes */
 $(document).ready(function(){
         $('#img').click(function(){
                 $('#big-shoes').attr('src','IMG/Shoes-choose1.png');
@@ -30,12 +34,24 @@ $(document).ready(function(){
                 $('#shoes-change').attr('src','IMG/Shoes-choose.png');
             });
 });
+
+
+/* Input search */
 $(document).ready(function(){
 		$("#search").click(function(){
 			$("#search").html("<input type='text' placeholder='Search'/>").css("transition", "0.9s");
 		});
 });
 
+$(document).ready(function(){
+    $('#glass').click(function(){
+        $('#search').html("<a href='#'>SEARCH</a>");
+    })
+})
+
+
+
+/* Box position */
 jQuery(function($) {
   function fixDiv() {
       

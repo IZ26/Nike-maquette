@@ -1,3 +1,4 @@
+/* General setting */
 *{
     margin: 0;
     padding: 0; 
@@ -14,6 +15,8 @@ body{
     position: relative;
     font-family: 'Nike';
 }
+
+/* Header CSS */ 
 #header{
     background: #ffffff;
     width: 93%;
@@ -71,9 +74,7 @@ body{
     padding: 0;
 }
 
-
-
-
+/* Top CSS */
 #top{
     background: #ffffff;
     width: 93%;
@@ -83,15 +84,15 @@ body{
 #shoes{
     display: inline-block;
 }
-#heart:hover{
-    box-shadow: grey 2px 5px 5px;;
-}
+
 #shoes img{
     width: 550px;
     margin-top: 150px;
     margin-left: 120px;
 }
-#shoes1 img:hover{
+
+/* Product CSS */
+#heart:hover{
     box-shadow: grey 2px 5px 5px;;
 }
 #product{
@@ -124,15 +125,18 @@ body{
     margin-top: 15px;
     border: 1px solid #e4e4e4;
 }
+#shoes1 img:hover{
+    box-shadow: grey 2px 5px 5px;
+}
 #shoes1 p{
     margin-top: 20px;
     color: #b8b8b8;
     font-size: 9px;
+    font-family: 'Roboto';
 }
 #img{
     margin-left: 10px;
 }
-
 .size1 {
     display: inline-block;
     clear: both;
@@ -144,24 +148,29 @@ body{
     overflow: hidden;
     background-color: #fff;
     background-image: url(../IMG/Icones/arrow.png);
+    background-position: 90%;
     background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     float: left;
     margin-top: 15px;
 }
 .size1 select {
-   margin-top: 8px;
-   padding-top: 13px; 
-   width: 130%;
-   border: none;
-   box-shadow: none;
-   background-color: transparent;
-   background-image: none;
-   -webkit-appearance: none;
-      -moz-appearance: none;
-           appearance: none;
-   font-size: 10px;
-   font-weight: 400;
-   color: #666666 ;
+    margin-top: 8px;
+    padding-top: 13px; 
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    font-size: 10px;
+    font-weight: 400;
+    color: #666666 ;
+    padding-left: 10px;
 }
 .btn{
     width: 105px;
@@ -176,7 +185,7 @@ body{
     margin-top: 15px;
 }
 
-
+/* feat1 CSS */
 #feat1{
     background-image: url(../IMG/bg-shoes.png);
     background-size: contain;
@@ -200,7 +209,7 @@ body{
 }
 
 
-
+/* feat2 CSS */
 #feat2{
     background-image: url(../IMG/bg-Nike.png);
     background-size: contain;
@@ -266,6 +275,8 @@ body{
 .part12{
     margin-top: 5px;
 }
+
+/* Box CSS */
 #box{
     width: 265px;
     height: 420px;
@@ -319,6 +330,7 @@ body{
     overflow: hidden;
     background-color: #fff;
     background-image: url(../IMG/Icones/arrow.png);
+    background-position: 90%;
     background-repeat: no-repeat;
     float: left;
     margin-top: 15px;
@@ -338,12 +350,14 @@ body{
    font-size: 10px;
    font-weight: 400;
    color: #666666 ;
+    padding-left: 10px;
 }
 .btn2{
     float: right;
     margin-right: 20px; 
 }
 
+/* Social CSS */
 #social{
     background: #ffffff;
     width: 93%;
@@ -352,20 +366,23 @@ body{
 }
 #social h3{
     padding-top: 110px;
-    padding-left: 70px;
+    padding-left: 50px;
 }
 #social h1{
-    padding-left: 70px;
+    padding-left: 50px;
 }
 
 .swiper-container {
-    width: 92.4%;
+    width: 93%;
+    height: 300px;
     margin-top: 45px;
 }
 .swiper-container img{
     width: 270px;
 }
-
+.swiper-container img:hover{
+    box-shadow: grey 5px 5px 10px; 
+}
 .swiper-slide {
     text-align: center;
     font-size: 10px;
