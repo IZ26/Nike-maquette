@@ -50,7 +50,6 @@ $(document).ready(function(){
 })
 
 
-
 /* Box position */
 jQuery(function($) {
   function fixDiv() {
@@ -84,3 +83,13 @@ jQuery(function($) {
   fixDiv();
 });
 
+
+/* Add to cart */
+var test = (0) ;
+
+$(document).ready(function(){
+		$("#add_to_cart").click(function(){
+            test ++; 
+            document.getElementById('cart').innerHTML = test;
+		});
+});
